@@ -18,6 +18,10 @@ export default function Home() {
 
         <p className={styles.description}>
           Block Alerts provide a platform to set up alerts in your smart contracts. Whether you want to get alerts for any transaction or events, the block alerts platform will listen to the alert and send it to your Slack, MS teams, etc.
+          <br />
+          Using Block Alerts, you can also execute smart contracts methods.
+          <br />
+          Right now, we are supporting methods from which you can read from blockchain. We are not supporting methods from which you can convert state of smart contracts.
         </p>
 
         <p className={styles.description}>
@@ -29,6 +33,8 @@ export default function Home() {
         <p className={styles.description}>
           <h1>Solution</h1>
           Our solution consists of an infrastructure where we run an Ethereum node, and one of our backend services will keep on processing all the blocks. Once we have the required data, it makes a POST request on the webhook, whether it’s Slack, MS Teams, Telegram, etc.
+          <br />
+          Execute smart contracts methods from your slack bot.
         </p>
 
         <p className={styles.description}>
@@ -45,6 +51,9 @@ export default function Home() {
             </li>
             <li>
               You don’t have to check etherscan again and again. You will be alerted once transaction is completed.
+            </li>
+            <li>
+              It is very easy to directly execute methods from smart contracts.
             </li>
           </ul>
         </p>
