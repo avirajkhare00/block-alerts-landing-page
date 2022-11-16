@@ -24,7 +24,7 @@ export default function Home() {
           Right now, we are only supporting EVM based chains.
         </p>
         <p className={styles.description}>
-          Please fill this Google form to signup for private beta starting <b>23/11/2022</b>: https://forms.gle/85hT16TzgxHdDaCW6
+          Please fill this Google form to signup for private beta starting <b>23/11/2022</b>: <a href='https://forms.gle/85hT16TzgxHdDaCW6'>Signup here</a>
         </p>
       </main>
     </div>
